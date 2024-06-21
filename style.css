@@ -72,6 +72,7 @@
     margin: 0 auto;
     padding-top: 5rem;
     justify-content: space-between;
+    gap: 10rem;
 }
 
 .hero3__text {
@@ -83,7 +84,7 @@
     font-family: "Playfair Display", serif;
     font-size: 2.25rem;
     font-weight: 900;
-    margin-bottom: 2rem;
+    margin: 1rem 0 2rem 0;
 }
 
 .hero3__text p {
@@ -92,6 +93,59 @@
     font-weight: 400;
 }
 
+.hero3__img {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 45%;
+}
 
+.hero3__img img {
+    transform: scale(1.04);
+    width: 100%;
+    justify-self: flex-end;
+}
 
+.section4 {
+    background-color: #824936;
+    padding-bottom: 5rem;
+}
+
+.hero4 {
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 5rem;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.hero4__text {
+    color: #F3EED9;
+    width: 45%;
+}
+
+.hero4__text h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin: 1rem 0 2rem 0;
+}
+
+.hero4__text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+
+.hero4__img {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 45%;
+}
+
+.hero4__img img {
+    transform: scale(1.04);
+    width: 100%;
+    justify-self: flex-end;
+}
 

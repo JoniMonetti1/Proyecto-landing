@@ -149,3 +149,20 @@
     justify-self: flex-end;
 }
 
+@media (max-width: 750px) {
+    .hero,     .section2__columns {
+        flex-direction: column;
+    }
+    .hero__text {
+        width: 100%;
+    }
+    .hero3, .hero4 {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .hero3__text, .hero3__img, .hero4__text, .hero4__img {
+        width: 100%;
+        text-align: start;
+    }
+}
+
